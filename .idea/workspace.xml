@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b63eb421-ab5d-4fd7-a151-07eb0ef7262a" name="Changes" comment="class not added to git fix?">
+    <list default="true" id="b63eb421-ab5d-4fd7-a151-07eb0ef7262a" name="Changes" comment="Encapsulation basic">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classBasic/PrivateStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classBasic/PrivateStudent.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +16,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="main/main" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -82,7 +84,13 @@
       <option name="presentableId" value="LOCAL−00003" />
       <updated>1656275845259</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL−00004" summary="Encapsulation basic">
+      <created>1656279744751</created>
+      <option name="number" value="LOCAL−00004" />
+      <option name="presentableId" value="LOCAL−00004" />
+      <updated>1656279744751</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -100,6 +108,7 @@
     <MESSAGE value="basic java" />
     <MESSAGE value="class basic setup" />
     <MESSAGE value="class not added to git fix?" />
-    <option name="LAST_COMMIT_MESSAGE" value="class not added to git fix?" />
+    <MESSAGE value="Encapsulation basic" />
+    <option name="LAST_COMMIT_MESSAGE" value="Encapsulation basic" />
   </component>
 </project>

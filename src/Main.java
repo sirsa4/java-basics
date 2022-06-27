@@ -1,5 +1,6 @@
 import classBasic.PrivateStudent;
 import classBasic.Student;
+import constructor.Person;
 import dataTypes.DataTypes;
 
 public class Main {
@@ -21,7 +22,7 @@ public class Main {
         student2.studentInformation();*/
 
         //class instance of PrivateStudent. This class is fully encapsulated
-        PrivateStudent ryu = new PrivateStudent();
+  /*      PrivateStudent ryu = new PrivateStudent();
 
         //set private variables using each variable setter method
         ryu.setFirstName("Ryu"); //firstName setter method
@@ -35,6 +36,13 @@ public class Main {
         System.out.println("Last name: "+ ryu.getLastName());
         System.out.println("Age: "+ryu.getAge());
         System.out.println("Student ID: "+ryu.getStudentID());
-        System.out.println("Birthday number: "+ryu.getBirthdayNumber());
+        System.out.println("Birthday number: "+ryu.getBirthdayNumber());*/
+
+        /*--------encapsulated constructor-------------*/
+        Person john = new Person("John", "Doe");
+
+        john.setFirstName("Louis");
+
+        john.printPersonInformation();
     }
 }
