@@ -1,7 +1,10 @@
 import classBasic.PrivateStudent;
 import classBasic.Student;
+import classInClass.Hobbies;
 import constructor.Person;
 import dataTypes.DataTypes;
+
+import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
@@ -39,10 +42,38 @@ public class Main {
         System.out.println("Birthday number: "+ryu.getBirthdayNumber());*/
 
         /*--------encapsulated constructor-------------*/
+        //Person class instance
         Person john = new Person("John", "Doe");
 
-        john.setFirstName("Louis");
+        /*john.printPersonInformation();
+        System.out.println(john.getHobby());*/
 
-        john.printPersonInformation();
+        //Add 2 new hobbies using the set method(setHobby) in Person class
+        john.setHobby(new Hobbies("football",4.5));
+        john.setHobby(new Hobbies("basket",3.5));
+
+        //Get all hobbies in john instance using get method(getHobby) in Person class
+        ArrayList<Hobbies> johnHobbies = john.getHobby();
+
+        //Each hobby item in array can be found with index postion using using built in ArrayList class, get()
+        Hobbies firstHobby = johnHobbies.get(0);
+        Hobbies secondHobby = johnHobbies.get(1);
+
+        //Simple print out value of each array using the getName() inside Hobbies class
+        System.out.println("firstHobby:"+firstHobby.getName() + " Rating: "+ firstHobby.getRating() + " secondHobby: "+ secondHobby.getName()+ " Rating: "+ secondHobby.getRating());
+
+        //Value can be printed out quicker without storing each array item in its own variable
+        System.out.println("hobby 1 onw-linw: "+johnHobbies.get(0).getName());
+        System.out.println("hobby 2 one-line: "+johnHobbies.get(1).getName());
+
+        //with for loop
+        for(int i = 0; i < johnHobbies.size(); i++){
+            //variable to store each array item
+            Hobbies johnEachHobby = johnHobbies.get(i);
+
+            System.out.println("Student: "+john.getFirstName() + "Hobbies: "+johnEachHobby.getName() + "\t Rating"+johnEachHobby.getRating());
+        }
+
+
     }
 }
