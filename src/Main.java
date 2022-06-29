@@ -6,6 +6,7 @@ import dataTypes.DataTypes;
 import loops.do_while_loop.DoWhileLoop;
 import loops.forLoop.ForLoop;
 import loops.whileLoop.WhileLoop;
+import scanner.ScannerBasic;
 
 import java.util.ArrayList;
 
@@ -99,14 +100,21 @@ public class Main {
         whileloop.decrease();*/
 
         /*---------do while loop------*/
-        DoWhileLoop doWhile = new DoWhileLoop();
+      /*  DoWhileLoop doWhile = new DoWhileLoop();
 
         //methods called
         doWhile.increase();
 
         System.out.println();
 
-        doWhile.decrease();
+        doWhile.decrease();*/
+
+        /*-----------Scanner class basic practice------------*/
+        //scanner instance
+        ScannerBasic scanner = new ScannerBasic();
+
+        //method in class called the instance
+        scanner.nameAgeScanner();
 
         }
 
