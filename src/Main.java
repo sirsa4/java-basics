@@ -3,6 +3,7 @@ import classBasic.Student;
 import classInClass.Hobbies;
 import constructor.Person;
 import dataTypes.DataTypes;
+import loops.do_while_loop.DoWhileLoop;
 import loops.forLoop.ForLoop;
 import loops.whileLoop.WhileLoop;
 
@@ -88,14 +89,24 @@ public class Main {
 
         /*--------While loop-----------*/
         //WhileLoop instance object
-        WhileLoop whileloop = new WhileLoop();
+      /*  WhileLoop whileloop = new WhileLoop();
 
         //Both methods called
         whileloop.increase();
 
         System.out.println();
 
-        whileloop.decrease();
+        whileloop.decrease();*/
+
+        /*---------do while loop------*/
+        DoWhileLoop doWhile = new DoWhileLoop();
+
+        //methods called
+        doWhile.increase();
+
+        System.out.println();
+
+        doWhile.decrease();
 
         }
 
