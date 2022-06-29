@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b63eb421-ab5d-4fd7-a151-07eb0ef7262a" name="Changes" comment="Using class in another class. Hobbies class in Person class">
+    <list default="true" id="b63eb421-ab5d-4fd7-a151-07eb0ef7262a" name="Changes" comment="Basic for loop">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -102,7 +102,13 @@
       <option name="presentableId" value="LOCAL−00006" />
       <updated>1656402920877</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL−00007" summary="Basic for loop">
+      <created>1656461653627</created>
+      <option name="number" value="LOCAL−00007" />
+      <option name="presentableId" value="LOCAL−00007" />
+      <updated>1656461653627</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -123,6 +129,7 @@
     <MESSAGE value="Encapsulation basic" />
     <MESSAGE value="basic constructor setup" />
     <MESSAGE value="Using class in another class. Hobbies class in Person class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Using class in another class. Hobbies class in Person class" />
+    <MESSAGE value="Basic for loop" />
+    <option name="LAST_COMMIT_MESSAGE" value="Basic for loop" />
   </component>
 </project>

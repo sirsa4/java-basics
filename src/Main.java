@@ -4,6 +4,7 @@ import classInClass.Hobbies;
 import constructor.Person;
 import dataTypes.DataTypes;
 import loops.forLoop.ForLoop;
+import loops.whileLoop.WhileLoop;
 
 import java.util.ArrayList;
 
@@ -78,12 +79,23 @@ public class Main {
 
         /*------For loop-----*/
         //for loop class instance without constructor
-        ForLoop forloop = new ForLoop();
+       /* ForLoop forloop = new ForLoop();
 
         //method to run for loop which increments
         forloop.increase();
         System.out.println();
-        forloop.decrease();
+        forloop.decrease();*/
+
+        /*--------While loop-----------*/
+        //WhileLoop instance object
+        WhileLoop whileloop = new WhileLoop();
+
+        //Both methods called
+        whileloop.increase();
+
+        System.out.println();
+
+        whileloop.decrease();
 
         }
 
