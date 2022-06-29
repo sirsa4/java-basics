@@ -3,6 +3,7 @@ import classBasic.Student;
 import classInClass.Hobbies;
 import constructor.Person;
 import dataTypes.DataTypes;
+import loops.forLoop.ForLoop;
 
 import java.util.ArrayList;
 
@@ -43,10 +44,10 @@ public class Main {
 
         /*--------encapsulated constructor-------------*/
         //Person class instance
-        Person john = new Person("John", "Doe");
+       /* Person john = new Person("John", "Doe");
 
-        /*john.printPersonInformation();
-        System.out.println(john.getHobby());*/
+        *//*john.printPersonInformation();
+        System.out.println(john.getHobby());*//*
 
         //Add 2 new hobbies using the set method(setHobby) in Person class
         john.setHobby(new Hobbies("football",4.5));
@@ -71,9 +72,19 @@ public class Main {
             //variable to store each array item
             Hobbies johnEachHobby = johnHobbies.get(i);
 
-            System.out.println("Student: "+john.getFirstName() + "Hobbies: "+johnEachHobby.getName() + "\t Rating"+johnEachHobby.getRating());
+            System.out.println("Student: "+john.getFirstName() + "Hobbies: "+johnEachHobby.getName() + "\t Rating"+johnEachHobby.getRating());*/
+
+        /*-----------------Loops-----------------------------------*/
+
+        /*------For loop-----*/
+        //for loop class instance without constructor
+        ForLoop forloop = new ForLoop();
+
+        //method to run for loop which increments
+        forloop.increase();
+        System.out.println();
+        forloop.decrease();
+
         }
 
-
-    }
 }
