@@ -1,14 +1,9 @@
-import classBasic.PrivateStudent;
-import classBasic.Student;
-import classInClass.Hobbies;
-import constructor.Person;
-import dataTypes.DataTypes;
-import loops.do_while_loop.DoWhileLoop;
-import loops.forLoop.ForLoop;
-import loops.whileLoop.WhileLoop;
-import scanner.ScannerBasic;
+import calculator.Calc;
+import calculator.Calculator;
 
-import java.util.ArrayList;
+import java.io.Console;
+import java.io.IOException;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -111,11 +106,18 @@ public class Main {
 
         /*-----------Scanner class basic practice------------*/
         //scanner instance
-        ScannerBasic scanner = new ScannerBasic();
+      /*  ScannerBasic scanner = new ScannerBasic();
 
         //method in class called the instance
-        scanner.nameAgeScanner();
+        scanner.nameAgeScanner();*/
 
-        }
+        /*-------------Calculator------------------*/
+        //Instance of calculator
+        Calculator calculator = new Calculator();
+
+        //method which runs the simple calculator
+        calculator.runCalculator();
+
+    }
 
 }

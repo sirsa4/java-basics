@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b63eb421-ab5d-4fd7-a151-07eb0ef7262a" name="Changes" comment="Basic do while loop">
+    <list default="true" id="b63eb421-ab5d-4fd7-a151-07eb0ef7262a" name="Changes" comment="Basic scanner class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -126,7 +126,13 @@
       <option name="presentableId" value="LOCAL−00010" />
       <updated>1656472031490</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL−00011" summary="Basic scanner class">
+      <created>1656501389094</created>
+      <option name="number" value="LOCAL−00011" />
+      <option name="presentableId" value="LOCAL−00011" />
+      <updated>1656501389094</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -150,6 +156,7 @@
     <MESSAGE value="Basic for loop" />
     <MESSAGE value="Basic while loop" />
     <MESSAGE value="Basic do while loop" />
-    <option name="LAST_COMMIT_MESSAGE" value="Basic do while loop" />
+    <MESSAGE value="Basic scanner class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Basic scanner class" />
   </component>
 </project>
